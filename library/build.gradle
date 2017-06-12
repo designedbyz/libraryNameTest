@@ -19,6 +19,7 @@ android {
 
     libraryVariants.all { variant ->
         variant.outputs.all {
+            println(getOutputFileName())
             outputFileName = "library-0.0.0.aar"
         }
     }
