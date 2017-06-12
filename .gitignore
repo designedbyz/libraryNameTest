@@ -1,0 +1,24 @@
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+*.apk
+*.ap_
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+#intellij
+.idea/
+*.iml
+out/
+
+# merge artifacts
+*.orig
